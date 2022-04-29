@@ -24,6 +24,7 @@ class Incrementer extends React.Component {
         })
     }
 
+    // consider it as a action for now
     handleClick() {
         Dispatcher.dispatch({
             eventName: 'increment'
